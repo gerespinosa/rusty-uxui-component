@@ -3,5 +3,6 @@ declare type Product = {
     flavour: string,
     id: string,
     colour: string,
-    picture: string
+    picture: string,
+    desc: string
 }

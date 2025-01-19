@@ -4,7 +4,8 @@ export const smoothies: Product[] = [
       name: "Berry Burst",
       flavour: "Strawberry & Blueberry",
       colour: "red",
-      picture: '/smoothies/red.png'
+      picture: '/smoothies/red.png',
+      desc: "A delicious blend of sweet strawberries and tangy blueberries, packed with antioxidants for a refreshing treat."
 
     },
     {
@@ -12,7 +13,8 @@ export const smoothies: Product[] = [
       name: "Citrus Zing",
       flavour: "Orange & Lemon",
       colour: "orange",
-      picture: '/smoothies/orange.png'
+      picture: '/smoothies/orange.png',
+      desc: "A zesty mix of juicy oranges and tart lemons, perfect for a burst of citrus flavor to brighten your day."
 
     },
     {
@@ -20,6 +22,7 @@ export const smoothies: Product[] = [
       name: "Green Glow",
       flavour: "Kiwi & Spinach",
       colour: "green",
-      picture: '/smoothies/green.png'
+      picture: '/smoothies/green.png',
+      desc: "A vibrant combination of tangy kiwi and nutrient-rich spinach, offering a healthy and energizing smoothie."
     }
   ];

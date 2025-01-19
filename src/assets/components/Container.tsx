@@ -6,12 +6,14 @@ const Container = () => {
     <div className='w-full h-[100vh] flex items-center'>
         {smoothies.map((element) => {
             return (
-                <ProductElement 
-                    name={element.name} 
-                    id={element.id} 
-                    flavour={element.flavour} 
-                    colour={element.colour} 
-                    picture={element.picture}/>
+                <ProductElement  
+                  key={element.id}
+                  name={element.name} 
+                  id={element.id} 
+                  flavour={element.flavour} 
+                  colour={element.colour} 
+                  picture={element.picture}
+                  desc={element.desc}/>
             )
         })}
     </div>

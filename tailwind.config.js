@@ -31,10 +31,24 @@ export default {
             left: '0'
           },
         },
+        minimize: {
+          '0%': {
+            width: '100vw',
+            position: 'absolut',
+            left: '0'
+
+          },
+          '100%': {
+            width: '34%',
+            position: 'absolut',
+            left: 'auto'
+          },
+      },
       },
       animation: {
         scaleUp: 'scaleUp 0.5s ease-in-out forwards',
         maximize: 'maximize 0.5s ease-out forwards',
+        minimize: 'minimize 1s ease-in forwards'
       },
     },
   },
